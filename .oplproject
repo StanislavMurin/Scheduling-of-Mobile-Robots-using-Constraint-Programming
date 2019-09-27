@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>CP 2019: Source code for Scheduling of Mobile Robots Using Constraint Programming</description>
+	<configs>
+		<config default="false" name="CP" category="opl">
+			<ref name="FlowControl_CP.mod" type="model">
+			</ref>
+		</config>
+		<config default="true" name="CP_single" category="opl">
+			<ref name="settings.ops" type="setting">
+			</ref>
+			<ref name="CP_data_42/JobSet1_x2.dat" type="data">
+			</ref>
+			<ref name="CP_data_42/Layout1.dat" type="data">
+			</ref>
+			<ref name="model.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
